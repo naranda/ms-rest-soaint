@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: ms-rest-soaint
-data:
-  application.properties: |-
-    rest.database.url=http://ms-db-soaint-myproject.192.168.64.8.nip.io/db
