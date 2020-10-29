@@ -25,6 +25,7 @@ public class ClienteService {
         log.debug("getInfoCliente: RUT= {} CANAL= {}",rut,canal);
 
         rut = rutFormatter(rut);
+        rut = rut.toUpperCase();
 
         log.debug("Rut formateado: RUT = {}",rut);
 
